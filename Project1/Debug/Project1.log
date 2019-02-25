@@ -1,0 +1,12 @@
+﻿  project1.cpp
+  sequence.cpp
+  Generating Code...
+c:\users\student\source\repos\project1\project1\sequence.cpp(18): error C4716: 'Sequence::operator=': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(22): error C4716: 'Sequence::operator[]': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(26): error C4716: 'Sequence::at': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(42): error C4716: 'Sequence::front': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(46): error C4716: 'Sequence::back': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(50): error C4716: 'Sequence::empty': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(54): error C4716: 'Sequence::size': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(66): error C4716: 'Sequence::print': must return a value
+c:\users\student\source\repos\project1\project1\sequence.cpp(71): error C4716: 'operator<<': must return a value
