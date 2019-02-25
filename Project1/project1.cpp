@@ -15,9 +15,9 @@ int main()
 			Sequence data(4);
 			data[0] = 100;
 			data[1] = 200;
-			cout << "before calling testCopyConstructor: " << data << endl;
+			cout << "before calling testCopyConstructor: " << data.at(0) << endl;
 			testCopyConstructor(data);
-			cout << "after calling testCopyConstructor: " << data << endl;
+			cout << "after calling testCopyConstructor: " << data.at(0) << endl;
 		}
 
 		{
@@ -33,6 +33,6 @@ int main()
 
 void testCopyConstructor(Sequence s)
 {
-	cout << "inside testCopyConstructor: " << s << endl;
+	cout << "inside testCopyConstructor: " << s.at(0) << endl;
 	s[0] = -1;
 }
